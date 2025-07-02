@@ -33,14 +33,25 @@
     }
 
     .logo-container img {
-      height: 100px;
+      height: 60px;
       margin-right: 10px;
     }
 
-    .logo-container span {
-      font-family: 'Pacifico', cursive;
-      font-size: 1.8rem;
-    }
+     .logo-container span {
+    font-family: 'Montserrat', sans-serif;
+font-weight: 800;
+
+    font-size: 1.8rem;
+    margin-left: 10px;
+    display: block;
+  }
+  .tagline {
+    font-family: 'Dancing Script', cursive;
+
+    font-size: 1.2rem;
+    margin-top: -5px;
+    color: #fff;
+  }
 
     nav a {
       color: #fff;
@@ -58,7 +69,7 @@
     .hero {
       background: url('photo6.jpg') no-repeat center center;
       background-size: cover;
-      height: 60vh;
+      height: 90vh;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -100,7 +111,10 @@
       text-align: center;
       color: #d32f2f;
     }
-
+.section h3{
+  text-align: center;
+  color: #d32f2f;
+}
     .section p {
       text-align: center;
       max-width: 800px;
@@ -161,10 +175,14 @@
 
 <body>
   <header>
-    <div class="logo-container">
-      <img src="logo1.png" alt="MBA Burgerwala">
-      <span>MBA Burgerwala</span>
+  <div class="logo-container">
+    <img src="logo1.png" alt="MBA Burgerwala">
+    <div>
+      <span>MBA BURGERWALA</span>
+      <div class="tagline">MASTER OF BUNS & APPETITE</div>
     </div>
+  </div>
+
     <nav>
       <a href="#about">About</a>
       <a href="#menu">Menu</a>
@@ -192,18 +210,27 @@
   <section class="section" id="gallery">
   <h2>Gallery & Media</h2>
   <div style="display: flex; justify-content: center; margin-top: 2rem;">
-    <img src="photo4.jpeg" alt="Gallery 2" style="width: 76%; max-width: 1500px; height: 550px; object-fit: cover;">
+    <img src="photo4.jpeg" alt="Gallery 2" style="width: 70%; max-width: 1500px; height: 600px; object-fit: cover;">
   </div>
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin-top: 2rem;">
     <img src="photo9.jpeg" alt="Gallery 3" style="width: 45%; max-width: 500px; height: 500px; object-fit: cover;">
-    <img src="photo7.jpeg" alt="Gallery 4" style="width: 50%; max-width: 600px; height: 500px; object-fit: cover;">
+    <img src="photo7.jpeg" alt="Gallery 4" style="width: 45%; max-width: 500px; height: 500px; object-fit: cover;">
   </div>
 </section>
 
+<section class="section" id="contact-details">
+  <h2>Contact Us</h2>
+  <div style="text-align: center; font-size: 1.1rem; line-height: 1.8;">
+    <p><strong>Address:</strong> MBA BurgerWala ,Near Akashwani Tower Opp Thakkers M-squre Gangpur Rod Nashik 422005</p>
+    <p><strong>Phone:</strong> +91 9021072407</p>
+    <p><strong>Email:</strong> mbaburgerwalansk@gmail.com</p>
+    <p><strong>Opening Hours:</strong> Mon - Sun: 05:00 PM - 10:00 PM</p>
+  </div>
+</section>
 
   <section class="section" id="contact">
-    <h2>Contact & Social</h2>
-    <p>Reach out to us via:</p>
+   
+    <h3>Reach out to us via:</h3>
     <div class="social-icons">
       <a href="https://www.instagram.com/mbaburgerwala_?igsh=NTZtMHh4ZjA4M3ph&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
       
