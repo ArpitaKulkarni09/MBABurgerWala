@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MBA Burgerwala - Mastering The Art Of Burger</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('https://images.unsplash.com/photo-1568901346375-23c9450c58cd') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: linear-gradient(135deg, #d32f2f, #c2185b);
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo-container img {
+      height: 60px;
+      margin-right: 10px;
+    }
+
+    .logo-container span {
+      font-family: 'Pacifico', cursive;
+      font-size: 1.8rem;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffe082;
+      transform: scale(1.05);
+    }
+
+    .hero {
+      background: url('photo6.jpg') no-repeat center center;
+      background-size: cover;
+      height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      text-align: center;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .hero h1 {
+      position: relative;
+      font-size: 3.5rem;
+      color: #fff;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 1rem 2rem;
+      border-radius: 15px;
+      backdrop-filter: blur(3px);
+    }
+
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 15px;
+    }
+
+    .section h2 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      color: #d32f2f;
+    }
+
+    .section p {
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+
+    .section img {
+      width: 70%;
+      max-width: 600px;
+      margin: 2rem auto;
+      border-radius: 15px;
+      display: block;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .section img:hover {
+      transform: scale(1.05);
+    }
+
+    .social-icons {
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .social-icons a {
+      font-size: 2rem;
+      margin: 0 1rem;
+      color: #d32f2f;
+      transition: all 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      transform: scale(1.2);
+      color: #ff9800;
+    }
+
+    video {
+      width: 80%;
+      max-width: 600px;
+      display: block;
+      margin: 2rem auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    footer {
+      background: #2c2c2c;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="logo.png" alt="MBA Burgerwala">
+      <span>MBA Burgerwala</span>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Mastering The Art of Burger</h1>
+  </div>
+
+  <section class="section" id="about">
+    <h2>About MBA Burgerwala</h2>
+    <p>MBA Burgerwala started with a vision to serve premium and unique burgers with a fusion twist. Owned and operated by <strong>Mandar Karnik</strong>, we’ve been featured in News18 and various print media for our quality, innovation, and passion.</p>
+    <img src="photo.jpeg" alt="About Burgerwala">
+  </section>
+
+  <section class="section" id="menu">
+    <h2>Our Menu</h2>
+    <img src="photo2.jpeg" alt="Menu 1">
+    <img src="photo3.jpeg" alt="Menu 2">
+  </section>
+
+  <section class="section" id="gallery">
+  <h2>Gallery & Media</h2>
+  <div style="display: flex; justify-content: center; margin-top: 2rem;">
+    <img src="photo4.jpeg" alt="Gallery 2" style="width: 70%; max-width: 1500px; height: 600px; object-fit: cover;">
+  </div>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin-top: 2rem;">
+    <img src="photo9.jpeg" alt="Gallery 3" style="width: 45%; max-width: 500px; height: 500px; object-fit: cover;">
+    <img src="photo7.jpeg" alt="Gallery 4" style="width: 45%; max-width: 500px; height: 500px; object-fit: cover;">
+  </div>
+</section>
+
+
+  <section class="section" id="contact">
+    <h2>Contact & Social</h2>
+    <p>Reach out to us via:</p>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/mbaburgerwala_?igsh=NTZtMHh4ZjA4M3ph&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+      
+      <a href="mailto:mbaburgerwalansk@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://wa.me/919021072407"><i class="fab fa-whatsapp"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MBA Burgerwala | Designed with ❤️</p>
+  </footer>
+</body>
+
+</html>
